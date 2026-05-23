@@ -90,4 +90,4 @@ Desenvolvido por Paulo Henrique.
 
 - GitHub: https://github.com/paulo-henrique25
 - LinkedIn: https://www.linkedin.com/in/paulohenrique01/
-- Portfólio online: COLOQUE_O_LINK_DA_VERCEL_AQUI
+- Portfólio online: https://paulo-henrique25.github.io/portfolio-v2/
