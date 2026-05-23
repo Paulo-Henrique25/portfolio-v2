@@ -1,3 +1,5 @@
+const baseUrl = import.meta.env.BASE_URL
+
 export const projects = [
   {
     title: 'Union Polls',
@@ -6,7 +8,7 @@ export const projects = [
     technologies: ['React', 'JavaScript', 'CSS', 'Vercel'],
     demoUrl: 'https://union-polls.vercel.app/',
     codeUrl: 'https://github.com/Paulo-Henrique25/union-polls',
-    imageUrl: '/portfolio-v2/projects/union-polls.png',
+    imageUrl: `${baseUrl}projects/union-polls.png`,
     featured: true,
   },
   {
@@ -16,7 +18,7 @@ export const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript'],
     demoUrl: 'https://paulo-henrique25.github.io/Projeto-conversor-de-moedas/',
     codeUrl: 'https://github.com/Paulo-Henrique25/Projeto-conversor-de-moedas',
-    imageUrl: '/portfolio-v2/projects/conversor-moedas.png',
+    imageUrl: `${baseUrl}projects/conversor-moedas.png`,
     featured: false,
   },
   {
@@ -26,7 +28,7 @@ export const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript'],
     demoUrl: 'https://paulo-henrique25.github.io/Projeto-Joken-P-/',
     codeUrl: 'https://github.com/Paulo-Henrique25/Projeto-Joken-P-',
-    imageUrl: '/portfolio-v2/projects/jokenpo.png',
+    imageUrl: `${baseUrl}projects/jokenpo.png`,
     featured: false,
   },
   {
@@ -36,7 +38,7 @@ export const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript', 'API'],
     demoUrl: 'https://paulo-henrique25.github.io/projeto-dublador-idioma/',
     codeUrl: 'https://github.com/Paulo-Henrique25/projeto-dublador-idioma',
-    imageUrl: '/portfolio-v2/projects/dublador-idiomas.png',
+    imageUrl: `${baseUrl}projects/dublador-idiomas.png`,
     featured: false,
   },
 ]
